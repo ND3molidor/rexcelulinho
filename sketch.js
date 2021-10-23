@@ -59,7 +59,7 @@ function setup(){
   rex.scale = 0.5;
  // ver o tamanho da colisão do objeto  
  //rex.debug = true;
-rex.setCollider("circle",0,0,30);
+rex.setCollider("circle",0,0,40);
   
   
   
@@ -148,10 +148,10 @@ function draw(){
     restart.visible =true;
     finaldojogo.visible = true;
     
-    if(touches.length > 0 && modo === MODOFINAL) {
-reset();
-touches=[];      
-} 
+    //if(touches.length > 0 && modo === MODOFINAL) {
+//reset();
+//touches=[];      
+//} 
   }
   
   
